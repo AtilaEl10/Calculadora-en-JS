@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;    
+}
+
+.calculadora {
+    width: 300px;
+    padding: 20px 10px 10px;
+    margin: 20px auto;
+    background-color: #6E9E41;
+    border-radius: 10px;
+}
+.visor {
+    background-color: white;
+    border-radius: 10px;
+    height: 50px;
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    font-family: 'VT323', monospace;
+    font-size: 40px;
+    padding-top: 10px;
+}
+table {
+    margin: 10px auto;
+}
+tr td {
+    width: 67px;
+    height: 40px;
+    margin: 10px;
+    background-color: lightgray;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+tr td:hover {
+    cursor: pointer;
+    background-color: rgb(167, 164, 164);
+}
